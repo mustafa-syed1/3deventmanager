@@ -1,0 +1,15 @@
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\bin\Debug\core\Unity\interop.js
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\bin\Debug\core\Unity\Renderer.html
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\bin\Debug\core\Unity\Renderer.unity3d
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\bin\Debug\3DInterface.exe.config
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\bin\Debug\3DInterface.exe
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\bin\Debug\3DInterface.pdb
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\bin\Debug\weifenluo.winformsui.docking.dll
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\3DInterface.csprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Console.resources
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Main.resources
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Renderer.resources
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.Properties.Resources.resources
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\3DInterface.csproj.GenerateResource.Cache
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\3DInterface.exe
+C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\3DInterface.pdb
