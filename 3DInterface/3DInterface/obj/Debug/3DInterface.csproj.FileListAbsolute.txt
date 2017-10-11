@@ -13,3 +13,20 @@ C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\_3DIn
 C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\3DInterface.csproj.GenerateResource.Cache
 C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\3DInterface.exe
 C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\3DInterface.pdb
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\core\Unity\interop.js
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\core\Unity\jquery.min.js
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\core\Unity\Renderer.html
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\core\Unity\UnityObject2.js
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\core\Unity\Renderer.unity3d
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\3DInterface.exe.config
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\3DInterface.exe
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\3DInterface.pdb
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\3DInterface.csprojResolveAssemblyReference.cache
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Console.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Main.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Objects.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Renderer.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.Properties.Resources.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\3DInterface.csproj.GenerateResource.Cache
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\3DInterface.exe
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\3DInterface.pdb

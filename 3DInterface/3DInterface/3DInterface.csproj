@@ -62,6 +62,12 @@
     <Compile Include="core\Forms\DockableForms\Form_Main.Designer.cs">
       <DependentUpon>Form_Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="core\Forms\DockableForms\Form_Objects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\Form_Objects.Designer.cs">
+      <DependentUpon>Form_Objects.cs</DependentUpon>
+    </Compile>
     <Compile Include="core\Forms\DockableForms\Form_Renderer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="core\Forms\DockableForms\Form_Main.resx">
       <DependentUpon>Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="core\Forms\DockableForms\Form_Objects.resx">
+      <DependentUpon>Form_Objects.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="core\Forms\DockableForms\Form_Renderer.resx">
       <DependentUpon>Form_Renderer.cs</DependentUpon>
@@ -108,7 +117,13 @@
     <Content Include="core\Unity\interop.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="core\Unity\jquery.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="core\Unity\Renderer.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="core\Unity\UnityObject2.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

@@ -3,20 +3,13 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Unity Web Player | 3DRenderer</title>
-		<script type='text/javascript' src='https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js'></script>
+        <script type='text/javascript' src="jquery.min.js"></script>
+        <script type='text/javascript' src="UnityObject2.js"></script>
+
 		<script type="text/javascript">
-		<!--
-		var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
-		if (document.location.protocol == 'https:')
-			unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
-		document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
-		-->
-		</script>
-		<script type="text/javascript">
-		<!--
+	
 			var config = {
 				params: { enableDebugging:"0" }
-				
 			};
 			var u = new UnityObject2(config);
 
@@ -56,7 +49,6 @@
 				});
 				u.initPlugin(jQuery("#unityPlayer")[0], "Renderer.unity3d");
 			});
-		-->
 		</script>
         <script type="text/javascript" src="interop.js"></script>
 		<style type="text/css">
@@ -113,9 +105,8 @@
 		</style>
 	</head>
 	<body style="margin:0">
-		
 			<div id="unityPlayer">
 				
-			</div>
-    </body>
+		    </div>
+	</body>
 </html>
