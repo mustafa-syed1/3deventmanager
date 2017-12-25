@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 9a4debe702001f845bc8fe5e09bdb19e
+timeCreated: 1513529937
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bar
+    100002: Bar Entran
+    100004: Bar Front
+    100006: 'Bar Hatch '
+    100008: Bar Stool
+    100010: Bar Stool0
+    100012: Bar Stool1
+    100014: Bar Stool2
+    100016: Bar Top
+    100018: Bar0
+    100020: Bar01
+    100022: Bottle She
+    100024: Bottle Sle
+    100026: Bottles
+    100028: Camera01
+    100030: Camera01.target
+    100032: Club Sofa
+    100034: 'Club Sofa '
+    100036: Club Sofa0
+    100038: Club Sofa1
+    100040: Dance Floo
+    100042: Dancefloor
+    100044: Door
+    100046: Door Glass
+    100048: Door0
+    100050: Door01
+    100052: Drink Shel
+    100054: Entrance d
+    100056: floor
+    100058: legs01
+    100060: Sofa legs
+    100062: //RootNode
+    100064: Stool Sea0
+    100066: Stool Sea1
+    100068: Stool Sea2
+    100070: Stool Seat
+    100072: Stool Sta0
+    100074: Stool Sta1
+    100076: Stool Sta2
+    100078: Stool Stan
+    100080: Table
+    100082: Table Glas
+    100084: Table0
+    100086: walls
+    100088: Welcome
+    400000: Bar
+    400002: Bar Entran
+    400004: Bar Front
+    400006: 'Bar Hatch '
+    400008: Bar Stool
+    400010: Bar Stool0
+    400012: Bar Stool1
+    400014: Bar Stool2
+    400016: Bar Top
+    400018: Bar0
+    400020: Bar01
+    400022: Bottle She
+    400024: Bottle Sle
+    400026: Bottles
+    400028: Camera01
+    400030: Camera01.target
+    400032: Club Sofa
+    400034: 'Club Sofa '
+    400036: Club Sofa0
+    400038: Club Sofa1
+    400040: Dance Floo
+    400042: Dancefloor
+    400044: Door
+    400046: Door Glass
+    400048: Door0
+    400050: Door01
+    400052: Drink Shel
+    400054: Entrance d
+    400056: floor
+    400058: legs01
+    400060: Sofa legs
+    400062: //RootNode
+    400064: Stool Sea0
+    400066: Stool Sea1
+    400068: Stool Sea2
+    400070: Stool Seat
+    400072: Stool Sta0
+    400074: Stool Sta1
+    400076: Stool Sta2
+    400078: Stool Stan
+    400080: Table
+    400082: Table Glas
+    400084: Table0
+    400086: walls
+    400088: Welcome
+    2300000: Bar Entran
+    2300002: Bar Front
+    2300004: 'Bar Hatch '
+    2300006: Bar Top
+    2300008: Bar0
+    2300010: Bar01
+    2300012: Bottle She
+    2300014: Bottles
+    2300016: 'Club Sofa '
+    2300018: Club Sofa1
+    2300020: Dance Floo
+    2300022: Dancefloor
+    2300024: Door Glass
+    2300026: Door0
+    2300028: Door01
+    2300030: Drink Shel
+    2300032: Entrance d
+    2300034: floor
+    2300036: legs01
+    2300038: Sofa legs
+    2300040: Stool Sea0
+    2300042: Stool Sea1
+    2300044: Stool Sea2
+    2300046: Stool Seat
+    2300048: Stool Sta0
+    2300050: Stool Sta1
+    2300052: Stool Sta2
+    2300054: Stool Stan
+    2300056: Table Glas
+    2300058: Table0
+    2300060: walls
+    2300062: Welcome
+    3300000: Bar Entran
+    3300002: Bar Front
+    3300004: 'Bar Hatch '
+    3300006: Bar Top
+    3300008: Bar0
+    3300010: Bar01
+    3300012: Bottle She
+    3300014: Bottles
+    3300016: 'Club Sofa '
+    3300018: Club Sofa1
+    3300020: Dance Floo
+    3300022: Dancefloor
+    3300024: Door Glass
+    3300026: Door0
+    3300028: Door01
+    3300030: Drink Shel
+    3300032: Entrance d
+    3300034: floor
+    3300036: legs01
+    3300038: Sofa legs
+    3300040: Stool Sea0
+    3300042: Stool Sea1
+    3300044: Stool Sea2
+    3300046: Stool Seat
+    3300048: Stool Sta0
+    3300050: Stool Sta1
+    3300052: Stool Sta2
+    3300054: Stool Stan
+    3300056: Table Glas
+    3300058: Table0
+    3300060: walls
+    3300062: Welcome
+    4300000: walls
+    4300002: Dancefloor
+    4300004: Door Glass
+    4300006: Door0
+    4300008: Door01
+    4300010: Bar01
+    4300012: Welcome
+    4300014: Dance Floo
+    4300016: floor
+    4300018: Stool Seat
+    4300020: Stool Stan
+    4300022: Stool Sea0
+    4300024: Stool Sta0
+    4300026: Stool Sea1
+    4300028: Stool Sta1
+    4300030: Stool Sea2
+    4300032: Stool Sta2
+    4300034: legs01
+    4300036: 'Club Sofa '
+    4300038: Sofa legs
+    4300040: Club Sofa1
+    4300042: Table Glas
+    4300044: Table0
+    4300046: Bottles
+    4300048: Bottle She
+    4300050: Drink Shel
+    4300052: Bar Front
+    4300054: Bar Top
+    4300056: Bar0
+    4300058: Bar Entran
+    4300060: 'Bar Hatch '
+    4300062: Entrance d
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

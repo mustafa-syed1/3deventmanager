@@ -40,16 +40,16 @@
             this.webBrowser_Renderer.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser_Renderer.Name = "webBrowser_Renderer";
             this.webBrowser_Renderer.ScrollBarsEnabled = false;
-            this.webBrowser_Renderer.Size = new System.Drawing.Size(629, 261);
+            this.webBrowser_Renderer.Size = new System.Drawing.Size(828, 377);
             this.webBrowser_Renderer.TabIndex = 0;
             this.webBrowser_Renderer.WebBrowserShortcutsEnabled = false;
-            this.webBrowser_Renderer.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser_Renderer_DocumentCompleted);
             // 
             // Form_Renderer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(629, 261);
+            this.BackColor = System.Drawing.Color.Gray;
+            this.ClientSize = new System.Drawing.Size(828, 377);
             this.CloseButton = false;
             this.CloseButtonVisible = false;
             this.Controls.Add(this.webBrowser_Renderer);

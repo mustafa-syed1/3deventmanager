@@ -88,12 +88,18 @@
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
+    <Compile Include="Assets\Script\Controller.cs" />
+    <Compile Include="Assets\Script\ControllerChair.cs" />
+    <Compile Include="Assets\Script\ControllerChairTable.cs" />
+    <Compile Include="Assets\Script\ControllerHall.cs" />
+    <Compile Include="Assets\Script\ControllerTvale.cs" />
     <Compile Include="Assets\Script\MouseListeners.cs" />
     <Compile Include="Assets\Script\MoveCamera.cs" />
+    <Compile Include="Assets\Script\ObjectProperties.cs" />
+    <Compile Include="Assets\Script\ReturnSelectedObj.cs" />
     <Compile Include="Assets\Script\ZoomInOutCamera.cs" />
     <Compile Include="Assets\Script\moveObjects.cs" />
     <Compile Include="Assets\Script\selectObject.cs" />
-    <Compile Include="Assets\asd.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />

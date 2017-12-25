@@ -3,13 +3,14 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Unity Web Player | 3DRenderer</title>
-        <script type='text/javascript' src="jquery.min.js"></script>
-        <script type='text/javascript' src="UnityObject2.js"></script>
-
-		<script type="text/javascript">
-	
+		<script type='text/javascript' src="jquery.min.js"></script>
+		<script type="text/javascript" src="UnityObject2.js"></script>		
+        
+        <script type="text/javascript">
+		
 			var config = {
 				params: { enableDebugging:"0" }
+				
 			};
 			var u = new UnityObject2(config);
 
@@ -48,11 +49,49 @@
 					}
 				});
 				u.initPlugin(jQuery("#unityPlayer")[0], "Renderer.unity3d");
+
+				
 			});
+
+			function SaySomethingToUnity(command) {
+			    u.getUnity().SendMessage("runner", "ChangeIt", command);
+			    u.getUnity().SendMessage("runner1", "ChangeIt", command);
+			    u.getUnity().SendMessage("runner2", "ChangeIt", command);
+			    u.getUnity().SendMessage("runner3", "ChangeIt", command);
+			    u.getUnity().SendMessage("runner4", "ChangeIt", command);
+			    u.getUnity().SendMessage("ChairTable", "ChangeIt", command);
+			    u.getUnity().SendMessage("Chairs", "ChangeIt", command);
+			    u.getUnity().SendMessage("Interior hall", "ChangeIt", command);
+			}
+
+			function delObj() {
+			    u.getUnity().SendMessage("runner","deleteObj","bang");
+			}
+
+			function SaySomethingToWinform(command) {
+			    window.external.recieveMessage("called from script code");
+			}
+
+			function ObjectProperties(objName,positionX,positionY,positionZ,rotationX,rotationY,rotationZ,scaleX,scaleY,scaleZ,istrigger) {
+			    window.external.ObjProperties(objName, positionX, positionY, positionZ, rotationX, rotationY, rotationZ, scaleX, scaleY, scaleZ, istrigger);
+			//    alert(objName + " " + positionX + " " + positionY + " " + positionZ + " " + rotationX + " " + rotationY + " " + rotationZ + " " + scaleX + " " + scaleY + " " + scaleZ + " " + istrigger);
+			}
+
+			function storeObjects(objName,positionX,positionY,positionZ,rotationX,rotationY,rotationZ,scaleX,scaleY,scaleZ)
+			{
+			    window.external.store_Objects(objName, positionX, positionY, positionZ, rotationX, rotationY, rotationZ, scaleX, scaleY, scaleZ);
+			
+			}
+			function sendObjects(command)
+			{
+			    u.getUnity().SendMessage("runner", "returnSelectedObj", command);
+			}
+
+		
 		</script>
-        <script type="text/javascript" src="interop.js"></script>
+        
 		<style type="text/css">
-		<!--
+		
 		body {
 			font-family: Helvetica, Verdana, Arial, sans-serif;
 			background-color: white;
@@ -101,7 +140,7 @@
 		div#unityPlayer {
 			cursor: default;
 		}
-		-->
+		
 		</style>
 	</head>
 	<body style="margin:0">

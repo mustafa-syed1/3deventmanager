@@ -11,30 +11,42 @@ public class moveObjects : MonoBehaviour {
             if (Input.GetKey("w"))
             {
                 selectObject.selectedObj.transform.position += Vector3.forward * Time.deltaTime;
+                ObjectProperties prop = new ObjectProperties();
+                prop.setProperties();
             }
             else if (Input.GetKey("s"))
             {
                 selectObject.selectedObj.transform.position += Vector3.back * Time.deltaTime;
+                ObjectProperties prop = new ObjectProperties();
+                prop.setProperties();
             }
             else if (Input.GetKey("a"))
             {
                 selectObject.selectedObj.transform.position += Vector3.left * Time.deltaTime;
+                ObjectProperties prop = new ObjectProperties();
+                prop.setProperties();
             }
             else if (Input.GetKey("d"))
             {
                 selectObject.selectedObj.transform.position += Vector3.right * Time.deltaTime;
+                ObjectProperties prop = new ObjectProperties();
+                prop.setProperties();
             }
             else if (Input.GetKey("q"))
             {
                 if(selectObject.selectedObj.transform.position.y >= 0.499)
                 {
                     selectObject.selectedObj.transform.position += Vector3.down * Time.deltaTime;
+                    ObjectProperties prop = new ObjectProperties();
+                    prop.setProperties();
                 }
 
             }
             else if (Input.GetKey("e"))
             {
                 selectObject.selectedObj.transform.position += Vector3.up * Time.deltaTime;
+                ObjectProperties prop = new ObjectProperties();
+                prop.setProperties();
             }
         }
     }

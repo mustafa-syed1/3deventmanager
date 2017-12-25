@@ -32,9 +32,94 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>_3DInterface.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.AgDataGrid.v8.2, Version=8.2.5.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.AgControls.8.2.5.1\lib\net35\DevExpress.AgDataGrid.v8.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.AgMenu.v8.2, Version=8.2.5.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.AgControls.8.2.5.1\lib\net35\DevExpress.AgMenu.v8.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.Data.v12.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v16.1, Version=16.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.v16.1.1.0.0\lib\DevExpress.Mvvm.v16.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v12.2.Core, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.Office.v12.2.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v12.2.Core, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.PivotGrid.v12.2.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.Printing.v12.2.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v12.2.Core, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.RichEdit.v12.2.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.SpellChecker.v12.2.Core, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.SpellChecker.v12.2.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.Utils.v12.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.Web.ASPxHtmlEditor.v12.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.Web.ASPxPivotGrid.v12.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxScheduler.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.Web.ASPxScheduler.v12.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxSpellChecker.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.Web.ASPxSpellChecker.v12.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxThemes.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.Web.ASPxThemes.v12.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxTreeList.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.Web.ASPxTreeList.v12.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.Mvc.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.Web.Mvc.v12.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.Web.v12.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v12.2, Version=12.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.MVC.12.2\lib\DevExpress.XtraPivotGrid.v12.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web.Silverlight, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.AgControls.8.2.5.1\lib\net35\System.Web.Silverlight.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,6 +135,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="core\Forms\DockableForms\3DObject.cs" />
+    <Compile Include="core\Forms\DockableForms\3Dproject.cs" />
+    <Compile Include="core\Forms\DockableForms\AssemblyInfo.cs" />
+    <Compile Include="core\Forms\DockableForms\Form_selectedObjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\Form_selectedObjects.Designer.cs">
+      <DependentUpon>Form_selectedObjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\newProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\newProjectForm.Designer.cs">
+      <DependentUpon>newProjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\objApropForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\objApropForm.Designer.cs">
+      <DependentUpon>objApropForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\formsComunication.cs" />
     <Compile Include="core\Forms\DockableForms\Form_Console.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,31 +169,99 @@
     <Compile Include="core\Forms\DockableForms\Form_Main.Designer.cs">
       <DependentUpon>Form_Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="core\Forms\DockableForms\Form_Objects.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="core\Forms\DockableForms\Form_Objects.Designer.cs">
-      <DependentUpon>Form_Objects.cs</DependentUpon>
-    </Compile>
     <Compile Include="core\Forms\DockableForms\Form_Renderer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="core\Forms\DockableForms\Form_Renderer.Designer.cs">
       <DependentUpon>Form_Renderer.cs</DependentUpon>
     </Compile>
+    <Compile Include="core\Forms\DockableForms\ImageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\ImageDialog.designer.cs">
+      <DependentUpon>ImageDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\ImageViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\ImageViewer.designer.cs">
+      <DependentUpon>ImageViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\ObjectsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\ObjectsList.designer.cs">
+      <DependentUpon>ObjectsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\ProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\ProgressBar.Designer.cs">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\Properties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\Properties.Designer.cs">
+      <DependentUpon>Properties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\selectedObjects.cs" />
+    <Compile Include="core\Forms\DockableForms\Form_Object.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\Form_Object.designer.cs">
+      <DependentUpon>Form_Object.cs</DependentUpon>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\ThumbnailController.cs" />
+    <Compile Include="core\Forms\DockableForms\ThumbnailFlowLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\Wellcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\Wellcome.designer.cs">
+      <DependentUpon>Wellcome.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="core\Forms\DockableForms\Form_selectedObjects.resx">
+      <DependentUpon>Form_selectedObjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="core\Forms\DockableForms\newProjectForm.resx">
+      <DependentUpon>newProjectForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="core\Forms\DockableForms\Form_Console.resx">
       <DependentUpon>Form_Console.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="core\Forms\DockableForms\Form_Main.resx">
       <DependentUpon>Form_Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="core\Forms\DockableForms\Form_Objects.resx">
-      <DependentUpon>Form_Objects.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="core\Forms\DockableForms\Form_Renderer.resx">
       <DependentUpon>Form_Renderer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="core\Forms\DockableForms\ImageDialog.resx">
+      <DependentUpon>ImageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="core\Forms\DockableForms\ImageViewer.resx">
+      <DependentUpon>ImageViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="core\Forms\DockableForms\objApropForm.resx">
+      <DependentUpon>objApropForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="core\Forms\DockableForms\ObjectsList.resx">
+      <DependentUpon>ObjectsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="core\Forms\DockableForms\ProgressBar.resx">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="core\Forms\DockableForms\Properties.resx">
+      <DependentUpon>Properties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="core\Forms\DockableForms\Form_Object.resx">
+      <DependentUpon>Form_Object.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="core\Forms\DockableForms\Wellcome.resx">
+      <DependentUpon>Wellcome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -96,10 +271,19 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="core\Objects\Unity_Objs\Armchairobj\arm.mtl" />
+    <None Include="core\Objects\Unity_Objs\Armchairobj\arm.obj" />
+    <None Include="core\Objects\Unity_Objs\Sofa Gallery Obj\sofa.mtl" />
+    <None Include="core\Objects\Unity_Objs\Sofa Gallery Obj\sofa.obj" />
+    <None Include="core\Objects\Unity_Objs\Sofa Gallery\divan_galereya.max" />
+    <None Include="core\Objects\Unity_Objs\SomertonDiningOBJ\ral.mtl" />
+    <None Include="core\Objects\Unity_Objs\SomertonDiningOBJ\ral.obj" />
     <None Include="core\Unity\Renderer.unity3d">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -111,9 +295,44 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="arm.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CommandFile.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="core\Forms\DockableForms\arm.PNG" />
+    <Content Include="core\Forms\DockableForms\cup.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="core\Forms\DockableForms\ThumbnailDotnet.csproj" />
+    <Content Include="core\Objects\Unity_Objs\Armchairobj\211.jpg" />
+    <Content Include="core\Objects\Unity_Objs\Armchairobj\cross_cloth_bump_01.jpg" />
+    <Content Include="core\Objects\Unity_Objs\Sofa Gallery Obj\CS038.jpg" />
+    <Content Include="core\Objects\Unity_Objs\Sofa Gallery Obj\leopard.jpg" />
+    <Content Include="core\Objects\Unity_Objs\Sofa Gallery Obj\s523-1.jpg" />
+    <Content Include="core\Objects\Unity_Objs\Sofa Gallery Obj\wood.jpg" />
+    <Content Include="core\Objects\Unity_Objs\Sofa Gallery\CS038.jpg" />
+    <Content Include="core\Objects\Unity_Objs\Sofa Gallery\leopard.jpg" />
+    <Content Include="core\Objects\Unity_Objs\Sofa Gallery\s523-1.jpg" />
+    <Content Include="core\Objects\Unity_Objs\Sofa Gallery\wood.jpg" />
+    <Content Include="core\Objects\Unity_Objs\SomertonDiningOBJ\65188.jpg" />
+    <Content Include="core\Objects\Unity_Objs\SomertonDiningOBJ\9.tif" />
+    <Content Include="core\Objects\Unity_Objs\SomertonDiningOBJ\Arte Orient Express 33022ref.jpg" />
+    <Content Include="core\Objects\Unity_Objs\SomertonDiningOBJ\Diffuse.jpg" />
+    <Content Include="core\Objects\Unity_Objs\SomertonDiningOBJ\OREH_.jpg" />
+    <Content Include="core\Objects\Unity_Objs\SomertonDiningOBJ\tile04heavy016.jpg" />
+    <Content Include="core\Objects\Unity_Objs\SomertonDiningOBJ\орех.jpg" />
+    <Content Include="core\Objects\Unity_Pics\arm.PNG" />
+    <Content Include="core\Objects\Unity_Pics\ral.PNG" />
+    <Content Include="core\Objects\Unity_Pics\RoundTable.PNG" />
+    <Content Include="core\Objects\Unity_Pics\Sofa.PNG" />
+    <Content Include="core\Objects\Unity_Pics\Stage.PNG" />
     <Content Include="core\Unity\interop.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -126,6 +345,131 @@
     <Content Include="core\Unity\UnityObject2.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="cube.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="cup.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="folder.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Halls\hall1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Halls\hall2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Halls\hall3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\All Items\All Items.png" />
+    <Content Include="icons\Band\Band.png" />
+    <Content Include="icons\Catering\catering.png" />
+    <Content Include="icons\Chair Table\Chair Table.png" />
+    <Content Include="icons\Chairs\chairs.png" />
+    <Content Include="icons\Halls\halls.png" />
+    <Content Include="icons\Light\light.png" />
+    <Content Include="icons\Person\person.png" />
+    <Content Include="icons\Reception\reception.png" />
+    <Content Include="icons\search.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\Sofa Table\sofa table.png" />
+    <Content Include="icons\Sofa\sofa.png" />
+    <Content Include="icons\Stage\stage.png" />
+    <Content Include="icons\Tables\tables.png" />
+    <Content Include="items\All Items\chair1.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\All Items\chair2.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\All Items\chair3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\All Items\chair4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\All Items\chair5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\All Items\chair6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\All Items\chairTable2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\All Items\chairTable3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\All Items\chairTable4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\All Items\chairTable5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\All Items\hall1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\All Items\square.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\Chair Table\chairTable2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\Chair Table\chairTable3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\Chair Table\chairTable4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\Chair Table\chairTable5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\Chair Table\square.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\Chairs\chair1.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\Chairs\chair2.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\Chairs\chair3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\Chairs\chair4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\Chairs\chair5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\Chairs\chair6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="items\Halls\hall1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="objFormPic\hall1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\refresh41.png" />
+    <None Include="Resources\refresh4.png" />
+    <None Include="Resources\refresh11.png" />
+    <None Include="Resources\refresh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="items\Band\" />
+    <Folder Include="items\Catering\" />
+    <Folder Include="items\Chairs\non\" />
+    <Folder Include="items\Light\" />
+    <Folder Include="items\Person\" />
+    <Folder Include="items\Reception\" />
+    <Folder Include="items\Sofa Table\" />
+    <Folder Include="items\Sofa\" />
+    <Folder Include="items\Stage\" />
+    <Folder Include="items\Tables\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
