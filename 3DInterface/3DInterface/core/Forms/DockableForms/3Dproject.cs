@@ -15,10 +15,8 @@ namespace _3DInterface.core.Forms.DockableForms
         public selectedObjects projObjects { get; set; }
         public string projLocation { get; set; }
         public string hallName { get; set; }
-        
         public _3Dproject()
         {}
-
         public _3Dproject(string projName, selectedObjects projObjects, string projLocation, string hallName)
         {
             this.projName = projName;
@@ -26,7 +24,6 @@ namespace _3DInterface.core.Forms.DockableForms
             this.projLocation = projLocation;
             this.hallName = hallName;
         }
-
         public void save_project(_3Dproject objselt)
         {
             XmlSerializer xs = new XmlSerializer(typeof(_3Dproject));
@@ -35,11 +32,10 @@ namespace _3DInterface.core.Forms.DockableForms
             {
                 path = path + "\\";
             }
-            TextWriter tw = new StreamWriter(objselt.projLocation+objselt.projName+".xml", true);
+            TextWriter tw = new StreamWriter(objselt.projLocation+objselt.projName+".xml");
             xs.Serialize(tw, objselt);
             tw.Close();
         }
-
         public _3Dproject Load_Project(string projectPath)
         {
             _3Dproject project = new _3Dproject();

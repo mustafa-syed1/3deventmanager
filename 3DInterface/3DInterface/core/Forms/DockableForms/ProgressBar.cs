@@ -17,7 +17,6 @@ namespace _3DInterface.core.Forms.DockableForms
             InitializeComponent();
             timer1.Start();
         }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             progressBar1.Increment(1);
@@ -25,13 +24,14 @@ namespace _3DInterface.core.Forms.DockableForms
 
             if (progressBar1.Value == 100)
             {
-        //        timer1.Stop(); this.Close();
+                timer1.Stop(); this.Close();
             }
 
             if (progressBar1.Value > 60)
             {
                 label2.Text = "Finalaizing all the savings";
             }
+
             else if (progressBar1.Value > 40)
             {
                 label2.Text = "all the transformations";
@@ -40,7 +40,6 @@ namespace _3DInterface.core.Forms.DockableForms
             {
                 label2.Text = "all the textures";
             }
-            
         }
     }
 }

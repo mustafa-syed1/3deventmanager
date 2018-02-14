@@ -61,7 +61,9 @@
             // 
             this.dockPanel_main.ActiveAutoHideContent = null;
             this.dockPanel_main.DockBackColor = System.Drawing.SystemColors.ControlDark;
+            this.dockPanel_main.DockBottomPortion = 0.17D;
             this.dockPanel_main.DockLeftPortion = 0.23D;
+            this.dockPanel_main.DockTopPortion = 0.08D;
             this.dockPanel_main.DocumentStyle = WeifenLuo.WinFormsUI.Docking.DocumentStyle.DockingWindow;
             this.dockPanel_main.Location = new System.Drawing.Point(0, 27);
             this.dockPanel_main.Name = "dockPanel_main";

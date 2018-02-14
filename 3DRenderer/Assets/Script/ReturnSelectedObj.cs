@@ -12,7 +12,7 @@ public class ReturnSelectedObj : MonoBehaviour {
         foreach (GameObject go in allParentObjects)
         {
             //        print("Name : " + go.name.ToString() + "   X : " + go.transform.position.x.ToString() + "    Y : " + go.transform.position.y.ToString() + "    Z : " + go.transform.position.z.ToString());
-            Application.ExternalCall("storeObjects",go.name.ToString(),go.transform.position.x,go.transform.position.y,go.transform.position.z, go.transform.rotation.x, go.transform.rotation.y, go.transform.rotation.z,go.transform.localScale.x, go.transform.localScale.y, go.transform.localScale.z);
+            Application.ExternalCall("storeObjects",go.name.ToString(),go.transform.position.x,go.transform.position.y,go.transform.position.z, go.transform.eulerAngles.x, go.transform.eulerAngles.y, go.transform.eulerAngles.z,go.transform.localScale.x, go.transform.localScale.y, go.transform.localScale.z);
         }
     }
 

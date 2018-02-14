@@ -10,25 +10,25 @@ public class moveObjects : MonoBehaviour {
         {
             if (Input.GetKey("w"))
             {
-                selectObject.selectedObj.transform.position += Vector3.forward * Time.deltaTime;
+                selectObject.selectedObj.transform.position += Vector3.forward * Time.deltaTime *100;
                 ObjectProperties prop = new ObjectProperties();
                 prop.setProperties();
             }
             else if (Input.GetKey("s"))
             {
-                selectObject.selectedObj.transform.position += Vector3.back * Time.deltaTime;
+				selectObject.selectedObj.transform.position += Vector3.back * Time.deltaTime * 100;
                 ObjectProperties prop = new ObjectProperties();
                 prop.setProperties();
             }
             else if (Input.GetKey("a"))
             {
-                selectObject.selectedObj.transform.position += Vector3.left * Time.deltaTime;
+				selectObject.selectedObj.transform.position += Vector3.left * Time.deltaTime * 100;
                 ObjectProperties prop = new ObjectProperties();
                 prop.setProperties();
             }
             else if (Input.GetKey("d"))
             {
-                selectObject.selectedObj.transform.position += Vector3.right * Time.deltaTime;
+				selectObject.selectedObj.transform.position += Vector3.right * Time.deltaTime * 100;
                 ObjectProperties prop = new ObjectProperties();
                 prop.setProperties();
             }
@@ -36,7 +36,7 @@ public class moveObjects : MonoBehaviour {
             {
                 if(selectObject.selectedObj.transform.position.y >= 0.499)
                 {
-                    selectObject.selectedObj.transform.position += Vector3.down * Time.deltaTime;
+					selectObject.selectedObj.transform.position += Vector3.down * Time.deltaTime * 100;
                     ObjectProperties prop = new ObjectProperties();
                     prop.setProperties();
                 }
@@ -44,7 +44,7 @@ public class moveObjects : MonoBehaviour {
             }
             else if (Input.GetKey("e"))
             {
-                selectObject.selectedObj.transform.position += Vector3.up * Time.deltaTime;
+				selectObject.selectedObj.transform.position += Vector3.up * Time.deltaTime * 100;
                 ObjectProperties prop = new ObjectProperties();
                 prop.setProperties();
             }

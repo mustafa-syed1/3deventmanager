@@ -15,20 +15,17 @@ namespace _3DInterface.core.Forms.DockableForms
         {
             InitializeComponent();
         }
-
         public void SetImage(string filename)
         {
             Thread thread = new Thread(new ParameterizedThreadStart(SetImageIntern));
             thread.IsBackground = true;
             thread.Start(filename);
         }
-
         private void SetImageIntern(object filename)
         {
             this.imageViewerFull.Image = Image.FromFile((string)filename);
             this.imageViewerFull.Invalidate();
         }
-
         private void ImageDialog_Resize(object sender, EventArgs e)
         {
             this.imageViewerFull.Invalidate();

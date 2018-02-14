@@ -8,13 +8,13 @@ public class ZoomInOutCamera : MonoBehaviour {
         {
             if(transform.position.y >= 0.1643)
             {
-                transform.position += Vector3.down * Time.deltaTime;
+                transform.position += Vector3.down * Time.deltaTime *50;
             }
             
         }
         if (Input.GetKey(KeyCode.KeypadMinus))
         {
-            transform.position += Vector3.up * Time.deltaTime;
+            transform.position += Vector3.up * Time.deltaTime *50;
         }
     }
 }

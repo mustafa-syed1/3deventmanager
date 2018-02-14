@@ -21,6 +21,7 @@ namespace _3DInterface.core.Forms.DockableForms
         private ThumbnailController m_Controller;
         private ImageDialog m_ImageDialog;
         private ImageViewer m_ActiveImageViewer;
+        public List<Button> buttons;
         public ObjectsList()
         {
             m_ImageDialog = new ImageDialog();
@@ -49,9 +50,9 @@ namespace _3DInterface.core.Forms.DockableForms
             int top = 1;
             int btnId = 1;
             Panel objectPanel = new Panel();
-            objectPanel.Width = 160;
-            objectPanel.Height = 469;
-            objectPanel.Location = new Point(5,38);
+            objectPanel.Width = 163;
+            objectPanel.Height = 483;
+            objectPanel.Location = new Point(5,28);
             objectPanel.BackColor = Color.FromArgb(41, 44, 51);
             objectPanel.AutoScroll = true;
             Controls.Add(objectPanel);
@@ -77,9 +78,10 @@ namespace _3DInterface.core.Forms.DockableForms
         }
         private void DynamicButton_Click(object sender, EventArgs e)
         {
+            
             this.flowLayoutPanel1.Controls.Clear();
             Button btn = (Button)sender;
-            btn.BackColor = Color.Black;
+          //  btn.BackColor = Color.Black;
             string ObjectName = btn.Name;
             this.flowLayoutPanel1.Controls.Clear();
             m_Controller.AddFolder(System.IO.Directory.GetCurrentDirectory() + "//items//" + ObjectName);
@@ -152,9 +154,8 @@ namespace _3DInterface.core.Forms.DockableForms
                 }
                 is1st = false;
             }
-
-            formsComunication.objprop.selectobjform.addChild(fnlimgName);
-            formsComunication.formRenderer.sendMessage(s);
+            UIController controller = new UIController();
+            controller.selectObject(fnlimgName);
         }
         private void imageViewer_MouseClick(object sender, EventArgs e)
         {
@@ -182,4 +183,13 @@ namespace _3DInterface.core.Forms.DockableForms
             }
         }
     }
+    public class ThumbnailImageEventArgs : EventArgs
+    {
+        public ThumbnailImageEventArgs(int size)
+        {
+            this.Size = size;
+        }
+        public int Size;
+    }
+    public delegate void ThumbnailImageEventHandler(object sender, ThumbnailImageEventArgs e);
 }

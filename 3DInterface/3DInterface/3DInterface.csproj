@@ -138,11 +138,24 @@
     <Compile Include="core\Forms\DockableForms\3DObject.cs" />
     <Compile Include="core\Forms\DockableForms\3Dproject.cs" />
     <Compile Include="core\Forms\DockableForms\AssemblyInfo.cs" />
+    <Compile Include="core\Forms\DockableForms\currentSelectedObject.cs" />
+    <Compile Include="core\Forms\DockableForms\Form_manageTransforms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\Form_manageTransforms.Designer.cs">
+      <DependentUpon>Form_manageTransforms.cs</DependentUpon>
+    </Compile>
     <Compile Include="core\Forms\DockableForms\Form_selectedObjects.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="core\Forms\DockableForms\Form_selectedObjects.Designer.cs">
       <DependentUpon>Form_selectedObjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\hallDesignInformation_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="core\Forms\DockableForms\hallDesignInformation_Form.Designer.cs">
+      <DependentUpon>hallDesignInformation_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="core\Forms\DockableForms\newProjectForm.cs">
       <SubType>Form</SubType>
@@ -156,7 +169,7 @@
     <Compile Include="core\Forms\DockableForms\objApropForm.Designer.cs">
       <DependentUpon>objApropForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="core\Forms\DockableForms\formsComunication.cs" />
+    <Compile Include="core\Forms\DockableForms\UIController.cs" />
     <Compile Include="core\Forms\DockableForms\Form_Console.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,11 +182,11 @@
     <Compile Include="core\Forms\DockableForms\Form_Main.Designer.cs">
       <DependentUpon>Form_Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="core\Forms\DockableForms\Form_Renderer.cs">
+    <Compile Include="core\Forms\DockableForms\MainController.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="core\Forms\DockableForms\Form_Renderer.Designer.cs">
-      <DependentUpon>Form_Renderer.cs</DependentUpon>
+    <Compile Include="core\Forms\DockableForms\MainController.Designer.cs">
+      <DependentUpon>MainController.cs</DependentUpon>
     </Compile>
     <Compile Include="core\Forms\DockableForms\ImageDialog.cs">
       <SubType>Form</SubType>
@@ -206,12 +219,6 @@
       <DependentUpon>Properties.cs</DependentUpon>
     </Compile>
     <Compile Include="core\Forms\DockableForms\selectedObjects.cs" />
-    <Compile Include="core\Forms\DockableForms\Form_Object.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="core\Forms\DockableForms\Form_Object.designer.cs">
-      <DependentUpon>Form_Object.cs</DependentUpon>
-    </Compile>
     <Compile Include="core\Forms\DockableForms\ThumbnailController.cs" />
     <Compile Include="core\Forms\DockableForms\ThumbnailFlowLayoutPanel.cs">
       <SubType>Component</SubType>
@@ -224,8 +231,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="core\Forms\DockableForms\Form_manageTransforms.resx">
+      <DependentUpon>Form_manageTransforms.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="core\Forms\DockableForms\Form_selectedObjects.resx">
       <DependentUpon>Form_selectedObjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="core\Forms\DockableForms\hallDesignInformation_Form.resx">
+      <DependentUpon>hallDesignInformation_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="core\Forms\DockableForms\newProjectForm.resx">
       <DependentUpon>newProjectForm.cs</DependentUpon>
@@ -236,8 +249,8 @@
     <EmbeddedResource Include="core\Forms\DockableForms\Form_Main.resx">
       <DependentUpon>Form_Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="core\Forms\DockableForms\Form_Renderer.resx">
-      <DependentUpon>Form_Renderer.cs</DependentUpon>
+    <EmbeddedResource Include="core\Forms\DockableForms\MainController.resx">
+      <DependentUpon>MainController.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="core\Forms\DockableForms\ImageDialog.resx">
       <DependentUpon>ImageDialog.cs</DependentUpon>
@@ -256,9 +269,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="core\Forms\DockableForms\Properties.resx">
       <DependentUpon>Properties.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="core\Forms\DockableForms\Form_Object.resx">
-      <DependentUpon>Form_Object.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="core\Forms\DockableForms\Wellcome.resx">
       <DependentUpon>Wellcome.cs</DependentUpon>
@@ -306,10 +316,6 @@
     <Content Include="CommandFile.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="core\Forms\DockableForms\arm.PNG" />
-    <Content Include="core\Forms\DockableForms\cup.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="core\Forms\DockableForms\ThumbnailDotnet.csproj" />
     <Content Include="core\Objects\Unity_Objs\Armchairobj\211.jpg" />
     <Content Include="core\Objects\Unity_Objs\Armchairobj\cross_cloth_bump_01.jpg" />
@@ -354,15 +360,8 @@
     <Content Include="folder.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Halls\hall1.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Halls\hall2.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Halls\hall3.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Halls\Monal Hall.jpg" />
+    <Content Include="Halls\The Weddings Hall.jpg" />
     <Content Include="icons\All Items\All Items.png" />
     <Content Include="icons\Band\Band.png" />
     <Content Include="icons\Catering\catering.png" />
@@ -454,6 +453,13 @@
     <Content Include="objFormPic\hall1.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\flipRight.png" />
+    <None Include="Resources\flipLeft.png" />
+    <None Include="Resources\refresh-icon.png" />
+    <None Include="Resources\helpicon.jpg" />
+    <None Include="Resources\Scale.JPG" />
+    <None Include="Resources\Capture.JPG" />
+    <None Include="Resources\Position.JPG" />
     <None Include="Resources\refresh41.png" />
     <None Include="Resources\refresh4.png" />
     <None Include="Resources\refresh11.png" />

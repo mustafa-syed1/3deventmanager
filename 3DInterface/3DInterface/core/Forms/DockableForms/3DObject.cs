@@ -9,6 +9,7 @@ namespace _3DInterface.core.Forms.DockableForms
     public class _3DObject
     {
         private string objName;
+        private string objID;
         private double posX;
         private double posY;
         private double posZ;
@@ -21,6 +22,7 @@ namespace _3DInterface.core.Forms.DockableForms
 
         public _3DObject() {
             this.objName = "Obj1";
+            this.ObjID = "Obj";
             this.posX = 2.3;
             this.posY = 3.4;
             this.posZ = 2.3;
@@ -31,9 +33,10 @@ namespace _3DInterface.core.Forms.DockableForms
             this.scaleY = 1.2;
             this.scaleZ = 2.3;
         }
-        public _3DObject(string objName, double posX, double posY, double posZ, double rotX, double rotY, double rotZ, double scaleX, double scaleY, double scaleZ)
+        public _3DObject(string objName, string objID, double posX, double posY, double posZ, double rotX, double rotY, double rotZ, double scaleX, double scaleY, double scaleZ)
         {
             this.ObjName = objName;
+            this.ObjID = objID;
             this.PosX = posX;
             this.PosY = posY;
             this.PosZ = posZ;
@@ -57,7 +60,18 @@ namespace _3DInterface.core.Forms.DockableForms
                 objName = value;
             }
         }
+        public string ObjID
+        {
+            get
+            {
+                return objID;
+            }
 
+            set
+            {
+                objID = value;
+            }
+        }
         public double PosX
         {
             get
@@ -70,7 +84,6 @@ namespace _3DInterface.core.Forms.DockableForms
                 posX = value;
             }
         }
-
         public double PosY
         {
             get
@@ -83,7 +96,6 @@ namespace _3DInterface.core.Forms.DockableForms
                 posY = value;
             }
         }
-
         public double PosZ
         {
             get
@@ -96,7 +108,6 @@ namespace _3DInterface.core.Forms.DockableForms
                 posZ = value;
             }
         }
-
         public double RotX
         {
             get
@@ -109,7 +120,6 @@ namespace _3DInterface.core.Forms.DockableForms
                 rotX = value;
             }
         }
-
         public double RotY
         {
             get
@@ -122,7 +132,6 @@ namespace _3DInterface.core.Forms.DockableForms
                 rotY = value;
             }
         }
-
         public double RotZ
         {
             get
@@ -135,7 +144,6 @@ namespace _3DInterface.core.Forms.DockableForms
                 rotZ = value;
             }
         }
-
         public double ScaleX
         {
             get
@@ -148,7 +156,6 @@ namespace _3DInterface.core.Forms.DockableForms
                 scaleX = value;
             }
         }
-
         public double ScaleY
         {
             get
@@ -161,7 +168,6 @@ namespace _3DInterface.core.Forms.DockableForms
                 scaleY = value;
             }
         }
-
         public double ScaleZ
         {
             get
@@ -174,5 +180,6 @@ namespace _3DInterface.core.Forms.DockableForms
                 scaleZ = value;
             }
         }
+        
     }
 }

@@ -21,13 +21,11 @@ namespace _3DInterface.core.Forms.DockableForms
         public int counter = 0;
         public newProjectForm(Wellcome wellcomeForm)
         {
-            
             this.wellcomeForm = wellcomeForm;
             InitializeComponent();
             images = Directory.GetFiles(currentDirectory, "*.jpg");
             setImage();
         }
-
         public void setImage()
         {
             currentImage = Image.FromFile(images[counter]);
@@ -39,7 +37,6 @@ namespace _3DInterface.core.Forms.DockableForms
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
-
         public void setHallName()
         {
             string[] words = this.images[counter].Split('\\');
@@ -48,7 +45,6 @@ namespace _3DInterface.core.Forms.DockableForms
             {
                 imgName = word;
             }
-
             string[] words1 = imgName.Split('.');
             string fnlimgName = "";
             bool is1st = true;
@@ -63,26 +59,21 @@ namespace _3DInterface.core.Forms.DockableForms
             }
             label4.Text = fnlimgName;
         }
-
         private void button4_Click(object sender, EventArgs e)
         {
             FolderBrowserDialog fdb = new FolderBrowserDialog();
             fdb.RootFolder = Environment.SpecialFolder.Desktop;
-            fdb.Description = "+++Select Folder+++";
-          //  fdb.ShowNewFolderButton = false;
-
+            fdb.Description = "Select Folder : ";
             if(fdb.ShowDialog() == DialogResult.OK)
             {
                 textBox1.Text = fdb.SelectedPath;
             }
         }
-
         private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
             wellcomeForm.Show();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -95,18 +86,15 @@ namespace _3DInterface.core.Forms.DockableForms
             {
                 ++this.counter;
                 setImage();
-            }
-            
+            }   
         }
-
         private void button5_Click(object sender, EventArgs e)
         {
             if(counter - 1 > -1)
             {
                 --this.counter;
                 setImage();
-            }
-            
+            }   
         }
         private void button2_Click(object sender, EventArgs e)
         {

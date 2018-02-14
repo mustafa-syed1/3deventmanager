@@ -13,62 +13,15 @@ C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\_3DIn
 C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\3DInterface.csproj.GenerateResource.Cache
 C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\3DInterface.exe
 C:\Users\Public\Documents\Unity Projects\3DInterface\3DInterface\obj\Debug\3DInterface.pdb
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\3DInterface.csprojResolveAssemblyReference.cache
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Console.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Main.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Renderer.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.ImageDialog.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.ImageViewer.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Properties.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.Properties.Resources.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\3DInterface.csproj.GenerateResource.Cache
 C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\arm.PNG
 C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\CommandFile.txt
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\core\Forms\DockableForms\cup.jpg
 C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\core\Unity\interop.js
 C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\core\Unity\jquery.min.js
 C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\core\Unity\Renderer.html
 C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\core\Unity\UnityObject2.js
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\cup.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\core\Unity\Renderer.unity3d
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\3DInterface.exe.config
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\3DInterface.exe
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\3DInterface.pdb
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\3DInterface.exe
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\3DInterface.pdb
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\folder.png
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Wellcome.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.newProjectForm.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.AgDataGrid.v8.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.AgMenu.v8.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Data.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Mvvm.v16.1.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Office.v12.2.Core.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.PivotGrid.v12.2.Core.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Printing.v12.2.Core.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.RichEdit.v12.2.Core.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.SpellChecker.v12.2.Core.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Utils.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxHtmlEditor.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxPivotGrid.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxScheduler.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxSpellChecker.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxThemes.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxTreeList.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.Mvc.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.XtraPivotGrid.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\System.Web.Silverlight.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\Halls\hall1.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\Halls\hall2.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\Halls\hall3.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.objApropForm.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\objFormPic\hall1.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Object.resources
 C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\cube.png
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_selectedObjects.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.ProgressBar.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.ObjectsList.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\cup.jpg
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\folder.png
 C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\icons\search.png
 C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\items\All Items\chair1.PNG
 C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\items\All Items\chair2.PNG
@@ -94,84 +47,47 @@ C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin
 C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\items\Chairs\chair5.jpg
 C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\items\Chairs\chair6.jpg
 C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\items\Halls\hall1.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\3DInterface.exe.config
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\3DInterface.exe
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\3DInterface.pdb
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\arm.PNG
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\CommandFile.txt
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\core\Forms\DockableForms\cup.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\core\Unity\interop.js
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\core\Unity\jquery.min.js
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\core\Unity\Renderer.html
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\core\Unity\UnityObject2.js
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\cube.png
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\cup.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\folder.png
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\Halls\hall1.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\Halls\hall2.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\Halls\hall3.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\icons\search.png
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\All Items\chair1.PNG
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\All Items\chair2.PNG
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\All Items\chair3.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\All Items\chair4.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\All Items\chair5.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\All Items\chair6.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\All Items\chairTable2.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\All Items\chairTable3.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\All Items\chairTable4.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\All Items\chairTable5.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\All Items\hall1.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\All Items\square.png
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\Chair Table\chairTable2.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\Chair Table\chairTable3.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\Chair Table\chairTable4.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\Chair Table\chairTable5.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\Chair Table\square.png
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\Chairs\chair1.PNG
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\Chairs\chair2.PNG
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\Chairs\chair3.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\Chairs\chair4.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\Chairs\chair5.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\Chairs\chair6.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\items\Halls\hall1.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\objFormPic\hall1.jpg
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\core\Unity\Renderer.unity3d
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\3DInterface.exe
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\3DInterface.pdb
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.AgDataGrid.v8.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.AgMenu.v8.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.Data.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.Mvvm.v16.1.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.Office.v12.2.Core.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.PivotGrid.v12.2.Core.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.Printing.v12.2.Core.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.RichEdit.v12.2.Core.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.SpellChecker.v12.2.Core.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.Utils.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxHtmlEditor.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxPivotGrid.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxScheduler.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxSpellChecker.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxThemes.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxTreeList.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.Web.Mvc.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.Web.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\DevExpress.XtraPivotGrid.v12.2.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\bin\Debug\System.Web.Silverlight.dll
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\3DInterface.csprojResolveAssemblyReference.cache
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_selectedObjects.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.newProjectForm.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Console.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Main.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Renderer.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.ImageDialog.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.ImageViewer.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.objApropForm.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.ObjectsList.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.ProgressBar.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Properties.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Object.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Wellcome.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\_3DInterface.Properties.Resources.resources
-C:\Users\bilal\Documents\Visual Studio 2015\Projects\3deventmanager\3DInterface\3DInterface\obj\Debug\3DInterface.csproj.GenerateResource.Cache
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\objFormPic\hall1.jpg
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\core\Unity\Renderer.unity3d
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.AgDataGrid.v8.2.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.AgMenu.v8.2.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Data.v12.2.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Mvvm.v16.1.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Office.v12.2.Core.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.PivotGrid.v12.2.Core.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Printing.v12.2.Core.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.RichEdit.v12.2.Core.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.SpellChecker.v12.2.Core.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Utils.v12.2.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxHtmlEditor.v12.2.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxPivotGrid.v12.2.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxScheduler.v12.2.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxSpellChecker.v12.2.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxThemes.v12.2.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.ASPxTreeList.v12.2.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.Mvc.v12.2.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.Web.v12.2.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\DevExpress.XtraPivotGrid.v12.2.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\System.Web.Silverlight.dll
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_manageTransforms.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_selectedObjects.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.newProjectForm.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Console.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Form_Main.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.MainController.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.ImageDialog.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.ImageViewer.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.objApropForm.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.ObjectsList.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.ProgressBar.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Properties.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.Wellcome.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.Properties.Resources.resources
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\3DInterface.csproj.GenerateResource.Cache
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\3DInterface.exe
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\3DInterface.pdb
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\3DInterface.exe.config
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\3DInterface.exe
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\bin\Debug\3DInterface.pdb
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\3DInterface.csprojResolveAssemblyReference.cache
+C:\Users\bilal\Documents\Visual Studio 2015\Projects\3DInterface\3DInterface\obj\Debug\_3DInterface.core.Forms.DockableForms.hallDesignInformation_Form.resources

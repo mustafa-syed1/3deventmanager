@@ -74,7 +74,6 @@
 
 			function ObjectProperties(objName,positionX,positionY,positionZ,rotationX,rotationY,rotationZ,scaleX,scaleY,scaleZ,istrigger) {
 			    window.external.ObjProperties(objName, positionX, positionY, positionZ, rotationX, rotationY, rotationZ, scaleX, scaleY, scaleZ, istrigger);
-			//    alert(objName + " " + positionX + " " + positionY + " " + positionZ + " " + rotationX + " " + rotationY + " " + rotationZ + " " + scaleX + " " + scaleY + " " + scaleZ + " " + istrigger);
 			}
 
 			function storeObjects(objName,positionX,positionY,positionZ,rotationX,rotationY,rotationZ,scaleX,scaleY,scaleZ)
@@ -87,7 +86,52 @@
 			    u.getUnity().SendMessage("runner", "returnSelectedObj", command);
 			}
 
-		
+			function UpdateTreeNode(objName, positionX, positionY, positionZ, rotationX, rotationY, rotationZ, scaleX, scaleY, scaleZ)
+			{
+			    window.external.UpdateTree(objName, positionX, positionY, positionZ, rotationX, rotationY, rotationZ, scaleX, scaleY, scaleZ)
+			}
+
+			function InitiateObject_InUnity(command)
+			{
+			    u.getUnity().SendMessage("runner", "initiate_Objects", command);
+			}
+
+			function updateObjectName(command)
+			{
+			    u.getUnity().SendMessage("runner", "updateObjName", command);
+			}
+
+			function FocusOn_obj(command)
+			{
+			    u.getUnity().SendMessage("runner", "FocusOnobj", command);
+			}
+
+			function setObjProperties(command)
+			{
+			    u.getUnity().SendMessage("runner", "setProperties", command);
+			}
+
+			function executeableCMDs(command)
+			{
+			    window.external.executeableCMD(command);
+			}
+
+			function LoadObject(command)
+			{
+			    u.getUnity().SendMessage("runner", "initiate_LoadedObjects", command);
+			}
+
+			function ResetProperties(objName, positionX, positionY, positionZ, rotationX, rotationY, rotationZ, scaleX, scaleY, scaleZ, istrigger)
+			{
+			    window.external.resetProperty(objName, positionX, positionY, positionZ, rotationX, rotationY, rotationZ, scaleX, scaleY, scaleZ, istrigger)
+			}
+
+			function initiateWithParameters_HTML(command)
+			{
+			    alert(command);
+			    u.getUnity().SendMessage("runner", "initiateWithParameters", command);
+			}
+
 		</script>
         
 		<style type="text/css">

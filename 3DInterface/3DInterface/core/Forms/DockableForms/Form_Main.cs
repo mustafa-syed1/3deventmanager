@@ -16,74 +16,77 @@ namespace _3DInterface.core.Forms.DockableForms
     public partial class Form_Main : Form
     {
         public _3Dproject project;
+        public currentSelectedObject currentSelectedObj;
         public Wellcome wellcomeForm;
+        public bool isNew;
+        public int nPeople = 0;
         public Form_Main(Wellcome wellcomeForm,bool isNew)
         {
             InitializeComponent();
+
+            this.isNew = isNew;
             project = new _3Dproject();
             this.wellcomeForm = wellcomeForm;
             project = wellcomeForm.project;
-            
             this.InitDockableForms();
+  
+        }
 
+        public void check_isNew()
+        {
             if (isNew)
             {
                 project.projObjects = new selectedObjects();
             }
             else if (!isNew)
             {
-                this.LoadObjectsFromUnity();
+                this.LoadObjects();
             }
         }
-        public void LoadObjectsFromUnity()
+        public void LoadObjects()
         {
-           
+            UIController FormComunication = new UIController();
+            FormComunication.loadProject(project.projLocation);
         }
-
         private void InitDockableForms()
         {
-            Form_Renderer form_renderer;
-
+            MainController form_renderer;
+            Form_manageTransforms TransformForm = new Form_manageTransforms();
+            TransformForm.Show(dockPanel_main, DockState.DockTop);
             objApropForm objpropFrom = new objApropForm();
             objpropFrom.Show(dockPanel_main, DockState.DockRight);
-
-            form_renderer = new Form_Renderer();
-            form_renderer.Show(dockPanel_main, DockState.Document);
-
+            
             ObjectsList form_Object = new ObjectsList();
             form_Object.Show(dockPanel_main,DockState.DockLeft);
-            
             Form_Console form_console = new Form_Console();
             form_console.Show(dockPanel_main,DockState.DockBottom);
 
-            formsComunication fc = new formsComunication(form_console,this, form_Object, form_renderer,objpropFrom);            
-        }
+            form_renderer = new MainController();
+            form_renderer.Show(dockPanel_main, DockState.Document);
+            UIController fc = new UIController(form_console,this, form_Object, form_renderer,objpropFrom,this.wellcomeForm);
 
+            this.currentSelectedObj = new currentSelectedObject();
+
+            Thread checkISnewProject = new Thread(new ThreadStart(check_isNew));
+            checkISnewProject.Start();
+
+        }
         private void Form_Main_Load(object sender, EventArgs e)
-        {
-            
-        }
-
+        {}
         private void Form_Main_FormClosing(object sender, FormClosingEventArgs e)
         {
                   DialogResult dialogResult = MessageBox.Show("Do You Want To Save Your Data", "Quit", MessageBoxButtons.YesNo);
                   if (dialogResult == DialogResult.Yes)
                   {
-           //           MessageBox.Show((project.projObjects.return_objSelected()).Count.ToString());
+                        if (!(project.projLocation.Last() == '\\')) { project.projLocation = project.projLocation + "\\"; }
+                        project.save_project(project);
+                        MessageBox.Show("Project is saved sucessfully");
                   }
-                  this.wellcomeForm.Close();
-           
+                  this.wellcomeForm.Close();           
         }
         private void saveProjectToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            formsComunication.formRenderer.sendObjects();
-            Thread Showprogress = new Thread(new ThreadStart(showProgress));
-            Showprogress.Start();
-        }
-        public void showProgress()
-        {
-            Thread.Sleep(1000);
-            if (!(project.projLocation.Last() == '\\')) {project.projLocation = project.projLocation + "\\"; }
+            if (!(project.projLocation.Last() == '\\')) { project.projLocation = project.projLocation + "\\"; }
             project.save_project(project);
             MessageBox.Show("Project is saved sucessfully");
         }

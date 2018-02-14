@@ -30,39 +30,29 @@ namespace _3DInterface.core.Forms.DockableForms
         /// </summary>
         private void InitializeComponent()
         {
-            this.flowLayoutPanel1 = new _3DInterface.core.Forms.DockableForms.ThumbnailFlowLayoutPanel();
             this.searchTxtBox = new System.Windows.Forms.TextBox();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new _3DInterface.core.Forms.DockableForms.ThumbnailFlowLayoutPanel();
             this.SuspendLayout();
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Gray;
-            this.flowLayoutPanel1.CausesValidation = false;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(170, 39);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(130, 468);
-            this.flowLayoutPanel1.TabIndex = 7;
             // 
             // searchTxtBox
             // 
             this.searchTxtBox.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.searchTxtBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.searchTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.searchTxtBox.Location = new System.Drawing.Point(7, 7);
+            this.searchTxtBox.Location = new System.Drawing.Point(5, 4);
             this.searchTxtBox.Name = "searchTxtBox";
-            this.searchTxtBox.Size = new System.Drawing.Size(157, 21);
+            this.searchTxtBox.Size = new System.Drawing.Size(161, 21);
             this.searchTxtBox.TabIndex = 8;
             this.searchTxtBox.Text = "Search Item...";
             // 
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.Gray;
-            this.button8.Location = new System.Drawing.Point(169, 6);
+            this.button8.Location = new System.Drawing.Point(172, 2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(79, 23);
+            this.button8.Size = new System.Drawing.Size(99, 31);
             this.button8.TabIndex = 9;
             this.button8.Text = "Search";
             this.button8.UseVisualStyleBackColor = false;
@@ -70,17 +60,27 @@ namespace _3DInterface.core.Forms.DockableForms
             // 
             // button9
             // 
-            this.button9.Image = global::_3DInterface.Properties.Resources.refresh41;
-            this.button9.Location = new System.Drawing.Point(261, 7);
+            this.button9.Image = global::_3DInterface.Properties.Resources.refresh_icon;
+            this.button9.Location = new System.Drawing.Point(272, 2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(39, 30);
+            this.button9.Size = new System.Drawing.Size(32, 31);
             this.button9.TabIndex = 10;
             this.button9.UseVisualStyleBackColor = true;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Gray;
+            this.flowLayoutPanel1.CausesValidation = false;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(173, 34);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(130, 480);
+            this.flowLayoutPanel1.TabIndex = 7;
             // 
             // ObjectsList
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(314, 519);
+            this.ClientSize = new System.Drawing.Size(305, 511);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.searchTxtBox);

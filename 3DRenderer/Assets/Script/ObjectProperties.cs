@@ -21,9 +21,9 @@ public class ObjectProperties {
         positionY = selectObject.selectedObj.transform.position.y;
         positionZ = selectObject.selectedObj.transform.position.z;
 
-        rotationX = selectObject.selectedObj.transform.rotation.x;
-        rotationY = selectObject.selectedObj.transform.rotation.y;
-        rotationZ = selectObject.selectedObj.transform.rotation.z;
+        rotationX = selectObject.selectedObj.transform.eulerAngles.x;
+        rotationY = selectObject.selectedObj.transform.eulerAngles.y;
+        rotationZ = selectObject.selectedObj.transform.eulerAngles.z;
 
         scaleX = selectObject.selectedObj.transform.localScale.x;
         scaleY = selectObject.selectedObj.transform.localScale.y;

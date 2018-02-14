@@ -20,12 +20,10 @@ namespace _3DInterface.core.Forms.DockableForms
             InitializeComponent();
             this.InitDockableForms();
         }
-
         private void InitDockableForms()
         {
             prop = new Properties();
-            prop.Show(dockPanel_objAprop, DockState.Document);
-            
+            prop.Show(dockPanel_objAprop, DockState.Document);   
             selectobjform = new Form_selectedObjects();
             selectobjform.Show(dockPanel_objAprop, DockState.DockTop);
         }
